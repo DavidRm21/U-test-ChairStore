@@ -1,2 +1,0 @@
-Hola mundo
-A simple text scanner which can parse primitive types and strings using Regex. A Scanner breaks its input into tokens using a delimiter pattern, which by default matches whitespace.

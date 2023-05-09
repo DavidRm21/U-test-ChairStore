@@ -39,8 +39,8 @@ Adicionalmente, el programa deberá solicitar los datos del comprador, incluyend
 
 Para análizar el problema utilizaremos [**Jira**](https://www.atlassian.com/es/software/jira) y la técnica utilizada en la gestión de proyectos de desarrollo de software "**Historia de Usuario**" que nos permitirá describir de manera detallada el comportamiento de nuestro sistema desde el punto de vista de nuestro cliente final.
 
-![Epic de historia de usuario del orden de nuestro programa en Jira](https://drive.google.com/file/d/16HCSw56V6ybsYu-p78Ix_HXoyKRGJ3Cz/view?usp=share_link)
-![Segunda parte final](https://drive.google.com/file/d/1NiQ1w1lSMzvwdMQxxwF9lqbkrmsA8Vgr/view?usp=share_link)
+![Epic de historia de usuario del orden de nuestro programa en Jira](jira2.PNG)
+![Segunda parte final](jira3.PNG)
 
 <br>
 <br>
@@ -50,7 +50,7 @@ Para análizar el problema utilizaremos [**Jira**](https://www.atlassian.com/es/
 
 Para representar las funcionalidades del problema usaremos el [Diagrama de casos de uso](https://diagramasuml.com/casos-de-uso/) y lo diseñaremos visualmente. Utilice el software con licencia de prueba [Enterprise Architect](https://sparxsystems.com/).
 
-![img del caso de uso](https://drive.google.com/file/d/1ToMgQpmk_IljlaKs5o8_Pj9ZmKdAEoT3/view)
+![img del caso de uso](CasoUso1.PNG)
 
 <br>
 <br>

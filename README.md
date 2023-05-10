@@ -10,7 +10,7 @@
 2. Análisis del problema.
 3. Representación de las funcionalidades del problema.
 4. Diseñando el diagrama de flujo. 
-5. Implementando el seudocódigo.
+5. Implementando el pseudocódigo.
 
 <br>
 <br>
@@ -24,7 +24,6 @@ Se necesita desarrollar un programa que permita aplicar descuentos a la compra d
 
 El programa deberá aplicar a la compra realizada las siguientes condiciones:
 
-- Las sillas ergonómicas tendran un 10% de descuento.
 - Por la compra de 250 unidades se aplicara un descuento del 8%.
 - Por la compra de 500 unidades se aplicara un descuento del 20%.
 - Por la compra de 1000 unidades se aplicara un descuento del 30%.
@@ -39,8 +38,9 @@ Adicionalmente, el programa deberá solicitar los datos del comprador, incluyend
 
 Para análizar el problema utilizaremos [**Jira**](https://www.atlassian.com/es/software/jira) y la técnica utilizada en la gestión de proyectos de desarrollo de software "**Historia de Usuario**" que nos permitirá describir de manera detallada el comportamiento de nuestro sistema desde el punto de vista de nuestro cliente final.
 
-![Epic de historia de usuario del orden de nuestro programa en Jira](jira2.PNG)
-![Segunda parte final](jira3.PNG)
+<center><img src="./img/jira2.PNG" alt="Historia de usuario I" width="400"/></center>
+
+<center><img src="./img/jira3.PNG" alt="Historia de usuario II" width="400"/></center>
 
 <br>
 <br>
@@ -50,7 +50,7 @@ Para análizar el problema utilizaremos [**Jira**](https://www.atlassian.com/es/
 
 Para representar las funcionalidades del problema usaremos el [Diagrama de casos de uso](https://diagramasuml.com/casos-de-uso/) y lo diseñaremos visualmente. Utilice el software con licencia de prueba [Enterprise Architect](https://sparxsystems.com/).
 
-![img del caso de uso](CasoUso1.PNG)
+<center><img src="./img/CasoUso1.PNG" alt="Caso de uso" width="400"/></center>
 
 <br>
 <br>
@@ -58,15 +58,19 @@ Para representar las funcionalidades del problema usaremos el [Diagrama de casos
 
 ## 4. Diseñando el diagrama de flujo
 
-Para diseñar el diagrama de flujo utilizaremos la herramienta online [Lucidchart](https://lucid.co/) para representar el algoritmo, proceso o flujo de trabajo de manera visual y sencilla de entender.
+Para diseñar el diagrama de flujo utilizaremos la herramienta [PSeInt](https://pseint.sourceforge.net/) para representar el algoritmo, proceso o flujo de trabajo de manera visual y sencilla de entender.
 
-![imagen de diagrama](Diagrma.jpg)
+<center><img src="./img/seudo.png" alt="Diagrama de flujo" width="400"/></center>
 
 <br>
 <br>
 <br>
 
-## 5. Implementando en seudocódigo
+## 5. Implementando en pseudocódigo
+
+El pseudocódigo es utilizado para planificar detalladamente y comprender los procesos lógicos de un problema antes de pasar a un lenguaje de programación real.
+
+<center><img src="./img/pseudoc.PNG"  alt="pseucodigo" width="400"/></center>
 
 
 

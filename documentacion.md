@@ -60,6 +60,15 @@ Para representar las funcionalidades del problema usaremos el [Diagrama de casos
 
 Para diseñar el diagrama de flujo utilizaremos la herramienta online [Lucidchart](https://lucid.co/) para representar el algoritmo, proceso o flujo de trabajo de manera visual y sencilla de entender.
 
+![imagen de diagrama](Diagrama.png)
+
+<br>
+<br>
+<br>
+
+## 5. Implementando en seudocódigo
+
+
 
 
 

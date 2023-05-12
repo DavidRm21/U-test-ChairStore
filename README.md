@@ -6,11 +6,11 @@
 
 ### Contenido
 
-1. Enunciado del problema.
-2. Análisis del problema.
-3. Representación de las funcionalidades del problema.
-4. Diseñando el diagrama de flujo. 
-5. Implementando el pseudocódigo.
+1. [Enunciado del problema.](#1-enunciado)
+2. [Análisis del problema.](#2-análisis-del-problema)
+3. [Representación de las funcionalidades del problema.](#3-representación-de-las-funcionalidades-del-problema)
+4. [Diseñando el diagrama de flujo.](#4-diseñando-el-diagrama-de-flujo)
+5. [Implementando el pseudocódigo.](#5-implementando-en-pseudocódigo)
 
 <br>
 <br>
@@ -38,9 +38,9 @@ Adicionalmente, el programa deberá solicitar los datos del comprador, incluyend
 
 Para análizar el problema utilizaremos [**Jira**](https://www.atlassian.com/es/software/jira) y la técnica utilizada en la gestión de proyectos de desarrollo de software "**Historia de Usuario**" que nos permitirá describir de manera detallada el comportamiento de nuestro sistema desde el punto de vista de nuestro cliente final.
 
-<center><img src="./img/jira2.PNG" alt="Historia de usuario I" width="400"/></center>
+<img src="./img/jira2.PNG" alt="Historia de usuario I" width="400"/>
 
-<center><img src="./img/jira3.PNG" alt="Historia de usuario II" width="400"/></center>
+<img src="./img/jira3.PNG" alt="Historia de usuario II" width="400"/>
 
 <br>
 <br>
@@ -50,7 +50,7 @@ Para análizar el problema utilizaremos [**Jira**](https://www.atlassian.com/es/
 
 Para representar las funcionalidades del problema usaremos el [Diagrama de casos de uso](https://diagramasuml.com/casos-de-uso/) y lo diseñaremos visualmente. Utilice el software con licencia de prueba [Enterprise Architect](https://sparxsystems.com/).
 
-<center><img src="./img/CasoUso1.PNG" alt="Caso de uso" width="400"/></center>
+<img src="./img/CasoUso1.PNG" alt="Caso de uso" width="400"/>
 
 <br>
 <br>
@@ -60,7 +60,7 @@ Para representar las funcionalidades del problema usaremos el [Diagrama de casos
 
 Para diseñar el diagrama de flujo utilizaremos la herramienta [PSeInt](https://pseint.sourceforge.net/) para representar el algoritmo, proceso o flujo de trabajo de manera visual y sencilla de entender.
 
-<center><img src="./img/seudo.png" alt="Diagrama de flujo" width="400"/></center>
+<img src="./img/seudo.png" alt="Diagrama de flujo" width="400"/>
 
 <br>
 <br>
@@ -70,7 +70,9 @@ Para diseñar el diagrama de flujo utilizaremos la herramienta [PSeInt](https://
 
 El pseudocódigo es utilizado para planificar detalladamente y comprender los procesos lógicos de un problema antes de pasar a un lenguaje de programación real.
 
-<center><img src="./img/pseudoc.PNG"  alt="pseucodigo" width="400"/></center>
+<img src="./img/pseudocod.png" alt="Diagrama de flujo" width="400"/>
+
+
 
 
 

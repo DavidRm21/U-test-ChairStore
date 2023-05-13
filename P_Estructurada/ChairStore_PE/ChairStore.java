@@ -115,7 +115,7 @@ public class ChairStore
                     
                     System.out.println("\n\tProducto: " + articlesA[option - 1]);
                     System.out.println("\tCantidad: " + quantity);
-                    System.out.println("¿Los datos son correctos? \n1. Si \n2. No");
+                    System.out.println("\n¿Los datos son correctos? \n1. Si \n2. No");
                     option = sc.nextInt();
                     
                     if(option == 1){

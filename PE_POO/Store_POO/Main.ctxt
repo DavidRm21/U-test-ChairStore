@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Main\ here.\r\n\r\n\ @author\ (Cristian\ Romero)\r\n\ @version\ (23-05-13)\r\n
+comment1.params=articles\ quantities
+comment1.target=int\ selectedOption(Articles[],\ int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

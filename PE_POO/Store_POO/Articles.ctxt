@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Articles
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Articles\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Articles()
+comment2.params=article\ price\ quantity
+comment2.target=Articles(java.lang.String,\ float,\ int)
+numComments=3

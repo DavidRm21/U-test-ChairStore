@@ -77,7 +77,8 @@ public class ChairStore
                     option = sc.nextInt();
                     
                     if(option == 1){
-                        quantityA[option - 1] = quantities += quantity;
+                        quantityA[option - 1] += quantity;
+                        quantities += quantity;
                     }
                     
                     break;
@@ -97,7 +98,8 @@ public class ChairStore
                     option = sc.nextInt();
                     
                     if(option == 1){
-                        quantityE[option - 1] = quantities += quantity;
+                        quantityE[option - 1] += quantity;
+                        quantities += quantity;
                     }
                     
                     break;
@@ -117,7 +119,8 @@ public class ChairStore
                     option = sc.nextInt();
                     
                     if(option == 1){
-                        quantityI[option - 1] = quantities += quantity;
+                        quantityI[option - 1] += quantity;
+                        quantities += quantity;
                     }
                     
                     break;
@@ -135,11 +138,11 @@ public class ChairStore
         
         // Aplicación del descuento de acuerdo al número de unidades adquiridas
         
-        if(quantities > 250){
+        if(quantities > 100){
             discount = 8;
-        }else if(quantities > 700){
+        }else if(quantities > 350){
             discount = 20;
-        }else if(quantities > 1000){
+        }else if(quantities > 800){
             discount = 30;
         }
         
@@ -168,7 +171,7 @@ public class ChairStore
                 total += (pricesI[i]*quantityI[i]);
             }
         }
-        System.out.println("\n\t*******************************\n" + total);
+        System.out.println("\n\t*******************************\n");
         System.out.println("\tUnds adquiridas: " + quantities);
         System.out.println("\tDescuento: " + discount);
         System.out.println("\tTotal de la compra: " + total);

@@ -26,9 +26,9 @@ Se necesita desarrollar un programa que permita aplicar descuentos a la compra d
 
 El programa deberá aplicar a la compra realizada las siguientes condiciones:
 
-- Por la compra de 250 unidades se aplicara un descuento del 8%.
-- Por la compra de 500 unidades se aplicara un descuento del 20%.
-- Por la compra de 1000 unidades se aplicara un descuento del 30%.
+- Por la compra de 100 unidades se aplicara un descuento del 8%.
+- Por la compra de 350 unidades se aplicara un descuento del 20%.
+- Por la compra de 800 unidades se aplicara un descuento del 30%.
 
 Adicionalmente, el programa deberá solicitar los datos del comprador, incluyendo su nombre, apellidos, dirección, teléfono, empresa(Si este aplica) y su número de NIT.
 
@@ -88,7 +88,7 @@ Para diseñar el diagrama de flujo utilizaremos la herramienta [PSeInt](https://
 El pseudocódigo se utilizo para planificar detalladamente y comprender los procesos lógicos del problema antes de pasar a un lenguaje de programación real.
 
 <p align = "center">
-<img src="./img/pseudocod.png" alt="Diagrama de flujo" width="400"/>
+<img src="./img/pseudocodigo.jpg" alt="Diagrama de flujo" width="400"/>
 </p>
 
 

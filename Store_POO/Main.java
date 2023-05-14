@@ -10,18 +10,17 @@ public class Main
 {
     // Mostrar los productos de la categoria y devolver la cantidad de articulos adquiridos
     
-    public static int selectedOption(Articles[] articles, int quantities){
+    public static int showCategoryOption(Articles[] articles, int quantities){
         Scanner sc = new Scanner(System.in);
-        int option = 0, quantity = 0;
         
         for(int i = 0; i < articles.length; i++){
                 System.out.println((i+1) + ". " + articles[i].article + "    $" + articles[i].price);
             }
             System.out.println("\nDigite el producto que desea adquirir: ");
-            option = sc.nextInt();
+            int option = sc.nextInt();
             System.out.println("\nSelección: " + articles[option - 1].article);
             System.out.println("Digite la cantidad: ");
-            quantity = sc.nextInt();
+            int quantity = sc.nextInt();
             
             System.out.println("\n\tProducto: " + articles[option - 1].article);
             System.out.println("\tCantidad: " + quantity);
@@ -33,6 +32,19 @@ public class Main
                 quantities += quantity;
             }
             return  quantities;
+    }
+    
+    // Muestra los items adquiridos
+    
+    public static float showPurchasedItems(Articles[] articles){
+        float total = 0;
+        for (int i = 0; i < articles.length ; i++){
+            if(articles[i].quantity > 0){
+                System.out.println("\t" + articles[i].article + "    $" + articles[i].price + " - " + articles[i].quantity + " unds");
+                total += (articles[i].price * articles[i].quantity);
+            }
+        }
+        return total;
     }
     
     public static void main(String[] args){
@@ -91,13 +103,13 @@ public class Main
             
             switch(option){
                 case 1: 
-                    quantities = selectedOption(articlesA, quantities);
+                    quantities = showCategoryOption(articlesA, quantities);
                     break;
                 case 2:
-                    quantities = selectedOption(articlesE, quantities);
+                    quantities = showCategoryOption(articlesE, quantities);
                     break;
                 case 3: 
-                    quantities = selectedOption(articlesI, quantities);
+                    quantities = showCategoryOption(articlesI, quantities);
                     break;
                 default:
                     System.out.println("Opción no válida");
@@ -117,8 +129,10 @@ public class Main
             discount = 30;
         }
         
+        System.out.println("\n\n\n\n");
+        
         if(isCompany == 1){
-            System.out.println("\n\n\n\n\tEmpresa: " + company);
+            System.out.println("\tEmpresa: " + company);
             System.out.println("\tNIT: " + nit);
         }
         
@@ -126,20 +140,11 @@ public class Main
         System.out.println("\tDirección: " + address);
         System.out.println("\tTeléfono: " + phone);
         System.out.println("\n");
-        for (int i = 0; i < articlesA.length ; i++){
-            if(articlesA[i].quantity > 0){
-                System.out.println("\t" + articlesA[i].article + "    $" + articlesA[i].price + " - " + articlesA[i].quantity + "unds");
-                total += (articlesA[i].price * articlesA[i].quantity);
-            }
-            if(articlesE[i].quantity > 0){
-                System.out.println("\t" + articlesE[i].article + "    $" + articlesE[i].price + " - " + articlesE[i].quantity + "unds");
-                total += (articlesE[i].price * articlesE[i].quantity);
-            }
-            if(articlesI[i].quantity > 0){
-                System.out.println("\t" + articlesI[i].article + "    $" + articlesI[i].price + " - " + articlesI[i].quantity + "unds");
-                total += (articlesI[i].price * articlesI[i].quantity);
-            }
-        }
+        
+        total += showPurchasedItems(articlesA);
+        total += showPurchasedItems(articlesE);
+        total += showPurchasedItems(articlesI);
+        
         System.out.println("\n\t*******************************\n");
         System.out.println("\tUnds adquiridas: " + quantities);
         System.out.println("\tDescuento: " + discount);

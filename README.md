@@ -44,7 +44,7 @@ Para análizar el problema se utilizó la plataforma online de [**Jira**](https:
 
 En la siguiente imagen estan los diferentes escenarios que el cliente final va a encontrar al ejecutar el programa:
 
-![Historia de usuario I|400](./img/Hus.jpg)
+![Historia de usuario I|400](./img/Hus1.jpg)
 
 <details>
     <summary><b>💡 ¿Qué es Jira Software </b></summary>

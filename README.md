@@ -124,7 +124,7 @@ Para diseñar el diagrama de flujo utilice la herramienta [PSeInt](https://psein
 
 En principio se declaran e inicializan las variables y los arreglos, luego se registran los datos del cliente y posteriormente se muestra el menu de categorias, al digitar la categoria requerida mostrará los productos disponibles de la tienda con su nombre y precio, seguidamente se preguntara por el item a comprar y las unidades que necesita, se le preguntará si desea continuar con la compra o finalizar con la compra, al continuar incluira más articulos y al finalizar se le mostrara los datos del cliente, los articulos comprados con su precio y unidades, el valor total, el descuento obtenido y el valor a pagar con el descuento aplicado.  
 
-![Diagrama de flujo|400](./img/seudo.png)
+![Diagrama de flujo|400](./img/diagram.jpg)
 
 <details>
     <summary><b>💡 ¿Qué es un diagrama de flujo? </b></summary>

@@ -2,10 +2,10 @@
 dependency1.from=Main
 dependency1.to=Articles
 dependency1.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=648
+editor.fx.0.y=92
 objectbench.height=92
 objectbench.width=451
 package.divider.horizontal=0.599791013584117

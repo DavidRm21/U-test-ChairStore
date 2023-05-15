@@ -1,10 +1,11 @@
-# Repaso programación 
 
-## Documentación programa de venta de sillas
+# Documentación programa de venta de sillas
+
+###### Repaso programación estructura de datos II
 
 <br>
 
-### Contenido
+## Contenido
 ---
 
   - [1. Enunciado](#1-enunciado)
@@ -39,7 +40,7 @@ Adicionalmente, el programa deberá solicitar los datos del comprador, incluyend
 ## 2. Análisis del problema
 ---
 
-Para análizar el problema se utiliz la plataforma online de [**Jira**](https://www.atlassian.com/es/software/jira) y la técnica para la gestión de proyectos de desarrollo de software "**Historia de Usuario**" que permite describir de manera detallada el comportamiento del sistema desde el punto de vista del cliente final.
+Para análizar el problema se utilizó la plataforma online de [**Jira**](https://www.atlassian.com/es/software/jira) y la técnica para la gestión de proyectos de desarrollo de software "**Historia de Usuario**" que permite describir de manera detallada el comportamiento del sistema desde el punto de vista del cliente final.
 
 En la siguiente imagen estan los diferentes escenarios que el cliente final va a encontrar al ejecutar el programa:
 

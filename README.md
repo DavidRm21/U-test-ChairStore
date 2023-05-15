@@ -46,6 +46,19 @@ En la siguiente imagen estan los diferentes escenarios que el cliente final va a
 ![Historia de usuario I|400](./img/Hus.jpg)
 
 <details>
+    <summary><b>💡 ¿Qué es Jira Software </b></summary>
+    <p>
+
+> Jira Software es una herramienta de gestión de proyectos de software desarrollada por Atlassian. Jira Software está diseñado específicamente para equipos de desarrollo de software, y proporciona una plataforma de seguimiento y gestión de tareas que ayuda a los equipos a planificar, realizar un seguimiento y gestionar proyectos ágiles de software.
+>
+> Jira Software también permite la integración con otras herramientas de desarrollo de software, como Bitbucket, GitHub, Bamboo y otras, lo que facilita la gestión de todo el ciclo de vida del desarrollo de software desde una única plataforma.
+>
+> Es una herramienta muy útil para equipos de desarrollo de software que buscan una plataforma de gestión de proyectos ágiles que les permita planificar, hacer un seguimiento y gestionar sus proyectos de manera efectiva y colaborativa.
+
+</p>
+</details>
+
+<details>
     <summary><b>💡 ¿Que es historia de Usuario?</b></summary>
     <p>
 
